@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  sans-serif;
+    text-decoration: none;
+    margin-left: .5%;
+    margin-right: .5%;
+}
+:root
+{
+    --bgcloor:#080e1c;
+    --textwhite:#fff;
+}
+.container
+{
+    background: var(--bgcloor);
+    height: 100vh;
+    overflow: hidden;
+
+}
+.navbar
+{
+    width: 9%;
+    margin: auto;
+    word-spacing: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+.navbar a
+{
+   text-decoration: none;
+   color:var(--textwhite);
+   margin: 0 30px;
+   transition: .3s;
+}
+.navbar a:hover
+{
+    color: #23a3fe;
+}
+.btn-mode
+{
+    color: var(--textwhite);
+    font-size: 25px;
+    cursor: pointer;
+}
+.logo
+{
+    font-size: 30px;
+    color: var(--textwhite);
+    font-weight: bold;
+    margin-right: auto;
+    margin-left: 20px;
+}
+.logo1
+{
+    color: #23a3fe;
+}
+.container2
+{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: end;
+    height: calc(100vh - 100px);
+}
+.div-text
+{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+   width: 50%;
+}
+.div-img
+{
+    position: absolute;
+    width: 33%;
+    bottom: -5px;
+    margin: right 50px; 
+    margin-bottom: 33px;
+
+}
+.div-img img
+{
+    width: 100%;
+    border: 3px solid #23a3fe;
+    margin-left: 700px;
+   
+}
+.div-text h1
+{
+    color: var(--textwhite);
+    font-size: 50px;
+    margin: 15px 0 0 5px;
+}
+.div-text span
+{
+    color: #23a3fe;
+    font-size: 25px;
+    font-weight: bold;
+    /* margin:auto */left: 10px;
+
+}
+.div-text span:hover
+{
+    color: var(--textwhite);
+}
+.div-text 
+{
+    color: var(--textwhite);
+    line-height: 1.8;
+    margin: 20px 0 0 40px;
+}
+.div-img h1:hover
+{
+    color: #23a3fe;
+}
+.div-text p:hover
+{
+    color: #23a3fe;
+}
+.social-icon {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    z-index: 999;
+  }
+  
+  .social-icon a {
+    background-color: #23a3fe;     
+    color: white;                   
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;            
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    font-size: 20px;
+    transition: 0.3s ease;
+  }
+  
+  .social-icon a:hover {
+    background-color: white;
+    color: #23a3fe;
+    transform: scale(1.2);          
+  }
+  
+  
+  .br {
+    width: 100px;
+    height: 50px;
+    color: #fff;
+    
+}
